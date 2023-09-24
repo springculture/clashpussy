@@ -1,9 +1,10 @@
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-KEYWORD,bing
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,easyscholar.cc
-DOMAIN-KEYWORD,easyscholar
+#DOMAIN-SUFFIX,easyscholar.cc
+#DOMAIN-KEYWORD,easyscholar
 DOMAIN-SUFFIX,belle-vie.xyz
 DOMAIN-SUFFIX,api.yijingluowangluo.xyz
 DOMAIN-SUFFIX,javdb.com
