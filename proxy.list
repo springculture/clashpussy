@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,bing.com
+#DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-KEYWORD,bing
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,notion.so
