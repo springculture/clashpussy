@@ -27,8 +27,12 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 
+DOMAIN-SUFFIX,nytimes.com
+
 # 内容：Porn
 # 数量：23条
+DOMAIN-SUFFIX,javdb.com
+DOMAIN-KEYWORD,jav
 DOMAIN-KEYWORD,porn
 DOMAIN-SUFFIX,8teenxxx.com
 DOMAIN-SUFFIX,ahcdn.com
