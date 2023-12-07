@@ -1,5 +1,4 @@
-# 包含常用应用的各种去广告规则。
-# 可能有轻微副作用，可放心使用。（如果网站功能和广告冲突，会删掉去广告规则）
+
 
 # 163
 DOMAIN-SUFFIX,a.youdao.com
@@ -87,37 +86,38 @@ DOMAIN-SUFFIX,track.58.com
 DOMAIN-SUFFIX,tracklog.58.com
 
 # Alibaba
-DOMAIN-SUFFIX,acjs.aliyun.com
-DOMAIN-SUFFIX,adash-c.m.taobao.com
-DOMAIN-SUFFIX,adash-c.ut.taobao.com
-DOMAIN-SUFFIX,adashx4yt.m.taobao.com
-DOMAIN-SUFFIX,adashxgc.ut.taobao.com
-DOMAIN-SUFFIX,afp.alicdn.com
-DOMAIN-SUFFIX,ai.m.taobao.com
-DOMAIN-SUFFIX,alipaylog.com
-DOMAIN-SUFFIX,atanx.alicdn.com
-DOMAIN-SUFFIX,atanx2.alicdn.com
-DOMAIN-SUFFIX,fav.simba.taobao.com
-DOMAIN-SUFFIX,g.click.taobao.com
-DOMAIN-SUFFIX,g.tbcdn.cn
-DOMAIN-SUFFIX,gma.alicdn.com
-DOMAIN-SUFFIX,gtmsdd.alicdn.com
-DOMAIN-SUFFIX,hydra.alibaba.com
-DOMAIN-SUFFIX,m.simba.taobao.com
-DOMAIN-SUFFIX,pindao.huoban.taobao.com
-DOMAIN-SUFFIX,re.m.taobao.com
-DOMAIN-SUFFIX,redirect.simba.taobao.com
-DOMAIN-SUFFIX,rj.m.taobao.com
-DOMAIN-SUFFIX,sdkinit.taobao.com
-DOMAIN-SUFFIX,show.re.taobao.com
-DOMAIN-SUFFIX,simaba.m.taobao.com
-DOMAIN-SUFFIX,simaba.taobao.com
-DOMAIN-SUFFIX,srd.simba.taobao.com
-DOMAIN-SUFFIX,strip.taobaocdn.com
-DOMAIN-SUFFIX,tns.simba.taobao.com
-DOMAIN-SUFFIX,tyh.taobao.com
-DOMAIN-SUFFIX,userimg.qunar.com
-DOMAIN-SUFFIX,yiliao.hupan.com
+# DOMAIN-SUFFIX,acjs.aliyun.com
+# DOMAIN-SUFFIX,adash-c.m.taobao.com
+# DOMAIN-SUFFIX,adash-c.ut.taobao.com
+# DOMAIN-SUFFIX,adashx4yt.m.taobao.com
+# DOMAIN-SUFFIX,adashxgc.ut.taobao.com
+# DOMAIN-SUFFIX,afp.alicdn.com
+# DOMAIN-SUFFIX,ai.m.taobao.com
+# DOMAIN-SUFFIX,alipaylog.com
+# DOMAIN-SUFFIX,atanx.alicdn.com
+# DOMAIN-SUFFIX,atanx2.alicdn.com
+# DOMAIN-SUFFIX,fav.simba.taobao.com
+# DOMAIN-SUFFIX,g.click.taobao.com
+# DOMAIN-SUFFIX,g.tbcdn.cn
+# DOMAIN-SUFFIX,gma.alicdn.com
+# DOMAIN-SUFFIX,gtmsdd.alicdn.com
+# DOMAIN-SUFFIX,hydra.alibaba.com
+# DOMAIN-SUFFIX,m.simba.taobao.com
+# DOMAIN-SUFFIX,pindao.huoban.taobao.com
+# DOMAIN-SUFFIX,re.m.taobao.com
+# DOMAIN-SUFFIX,redirect.simba.taobao.com
+# DOMAIN-SUFFIX,rj.m.taobao.com
+# DOMAIN-SUFFIX,sdkinit.taobao.com
+# DOMAIN-SUFFIX,show.re.taobao.com
+# DOMAIN-SUFFIX,simaba.m.taobao.com
+# DOMAIN-SUFFIX,simaba.taobao.com
+# DOMAIN-SUFFIX,srd.simba.taobao.com
+# DOMAIN-SUFFIX,strip.taobaocdn.com
+# DOMAIN-SUFFIX,tns.simba.taobao.com
+# DOMAIN-SUFFIX,tyh.taobao.com
+# DOMAIN-SUFFIX,userimg.qunar.com
+# DOMAIN-SUFFIX,yiliao.hupan.com
+
 
 # Adobe
 DOMAIN-SUFFIX,3dns-2.adobe.com
