@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,233dm.net
 #DOMAIN-SUFFIX,ieee.org
 
 
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,aliyuncdn.com
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,aliyundrive.com
+#DOMAIN-SUFFIX,aliyun.com
+#DOMAIN-SUFFIX,aliyuncdn.com
+#DOMAIN-SUFFIX,aliyuncs.com
+#DOMAIN-SUFFIX,aliyundrive.com
