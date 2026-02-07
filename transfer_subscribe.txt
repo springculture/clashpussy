@@ -2,4 +2,7 @@ https://raw.githubusercontent.com/springculture/clashpussy/main/clashselect.ini
 https://raw.githubusercontent.com/springculture/clashpussy/main/clashsimple.ini
 https://raw.githubusercontent.com/springculture/clashpussy/main/clashen.ini
 
+https://suburl.v1.mk/
+remote configue
+convert CN flag to ROC_TW flag
 `🇨🇳@🇹🇼`
