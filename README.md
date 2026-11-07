@@ -1,5 +1,5 @@
 # Proxy Rules for Subscription Conversion
-
+Clash 自定义分流规则，采集于互联网与自身需求添加，包含各大流媒体、去广告、国内直连。ini能直接用于订阅转换的远程规则。
 clashen.ini for English version
 
 clashsimple.ini for Chinese version
