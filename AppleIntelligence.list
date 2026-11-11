@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN,gateway.icloud.com,PROXY
 DOMAIN,gs-loc-cn.apple.com,PROXY
-DOMAIN,gspe1-ssl.Is.apple.com,PROXY
+DOMAIN,gspe1-ssl.ls.apple.com,PROXY
 DOMAIN,p150-acsegateway.icloud.com,PROXY
 DOMAIN,setup.icloud.com,PROXY
 DOMAIN,bag.itunes.apple.com,PROXY
