@@ -6,6 +6,9 @@ clashsimple.ini for Chinese version
 
 clashselect.ini used more rules, not recommended.
 
+新增苹果智能分流规则
+https://raw.githubusercontent.com/springculture/clashpussy/refs/heads/main/AppleIntelligence.list
+
 ## Subscription conversion
 https://suburl.v1.mk
 https://bianyuan.xyz
