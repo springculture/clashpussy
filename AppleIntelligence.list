@@ -1,0 +1,27 @@
+DOMAIN-SUFFIX, gateway.icloud.com
+DOMAIN-SUFFIX, apple-relay.apple.com
+DOMAIN-SUFFIX, apple-relay.fastly-edge.com
+DOMAIN-SUFFIX, apple-relay.cloudflare.com
+DOMAIN-SUFFIX, guzzoni.apple.com
+DOMAIN-SUFFIX, cp4.cloudflare.com
+DOMAIN-SUFFIX, gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX, smoot.apple.com
+DOMAIN-SUFFIX, apple-relay.akamaized.net
+DOMAIN-SUFFIX, apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX, aapps.mzstatic.com
+DOMAIN-SUFFIX,itunes.apple.com,PROXY
+DOMAIN-SUFFIX,smp-device-content.apple.com,PROXY
+DOMAIN-SUFFIX,xp.apple.com,PROXY
+DOMAIN-SUFFIX,mesu.apple.com,PROXY
+DOMAIN,guzzoni.apple.com,PROXY
+DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN,gateway.icloud.com,PROXY
+DOMAIN,gs-loc-cn.apple.com,PROXY
+DOMAIN,gspe1-ssl.Is.apple.com,PROXY
+DOMAIN,p150-acsegateway.icloud.com,PROXY
+DOMAIN,setup.icloud.com,PROXY
+DOMAIN,bag.itunes.apple.com,PROXY
+DOMAIN-KEYWORD,siri,PROXY
+DOMAIN-SUFFIX,icloud-content.com,PROXY
