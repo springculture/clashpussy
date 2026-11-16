@@ -1,0 +1,26 @@
+# Apple Intelligence / Siri AI 分流规则(精简版)
+# 依据:Apple 官方《在企业网络上使用 Apple 产品》support.apple.com/101555
+# 格式:ACL4SSR / subconverter ruleset——只写规则,不写策略,策略由 ruleset= 的组名注入
+# 引用:ruleset=🍎 苹果智能,https://raw.githubusercontent.com/springculture/clashpussy/main/AppleIntelligence.list
+
+# ── Siri 与听写 ────────────────────────────────
+DOMAIN,guzzoni.apple.com
+# Siri / 聚焦 / 查询 / Safari / 新闻 / 信息 / 音乐 的搜索服务
+DOMAIN-SUFFIX,smoot.apple.com
+
+# ── 私有云计算 Private Cloud Compute (OHTTP 中继,443 TCP+UDP) ──
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+
+# ── Apple 智能扩展(接入第三方模型)────────────
+DOMAIN-SUFFIX,apple-relay.apple.com
+
+# ── PCC 中继使用的 DNS(OHTTP 出口)──────────
+DOMAIN-SUFFIX,mask.apple-dns.net
+
+# ── CloudKit / PCC 入口 ───────────────────────
+# 注意:开启 iCloud 专用代理(Private Relay)后,这一条会承载大量 Safari 流量
+# 若发现节点流量异常暴涨,把下面这行注释掉再试
+# DOMAIN,gateway.icloud.com
