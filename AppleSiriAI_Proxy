@@ -1,7 +1,18 @@
-# Apple Intelligence / Siri AI 分流规则(精简版)
-# 依据:Apple 官方《在企业网络上使用 Apple 产品》support.apple.com/101555
+# Apple Intelligence / Siri / 写作工具 分流规则(修复版)
+# 依据:Apple 官方 support.apple.com/101555 + 写作工具鉴权链路
 # 格式:ACL4SSR / subconverter ruleset——只写规则,不写策略,策略由 ruleset= 的组名注入
 # 引用:ruleset=🍎 苹果智能,https://raw.githubusercontent.com/springculture/clashpussy/main/AppleIntelligence.list
+
+# ── 最高优先级:AI 功能入口与授权校验 ──────────
+# 写作工具的开关状态、功能 entitlement、模型元数据都靠这一组
+# 这组必须排在所有 DIRECT / GEOIP 规则之前
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN,api.apple-cloudkit.com
+DOMAIN,gsa.apple.com
+DOMAIN,seed-gsa.apple.com
+DOMAIN,gsas.apple.com
+DOMAIN-SUFFIX,apple-livephotos.com
 
 # ── Siri 与听写 ────────────────────────────────
 DOMAIN,guzzoni.apple.com
@@ -13,14 +24,15 @@ DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.akamaized.net
-
-# ── Apple 智能扩展(接入第三方模型)────────────
 DOMAIN-SUFFIX,apple-relay.apple.com
-
-# ── PCC 中继使用的 DNS(OHTTP 出口)──────────
+# PCC 中继使用的加密 DNS
 DOMAIN-SUFFIX,mask.apple-dns.net
 
-# ── CloudKit / PCC 入口 ───────────────────────
-# 注意:开启 iCloud 专用代理(Private Relay)后,这一条会承载大量 Safari 流量
-# 若发现节点流量异常暴涨,把下面这行注释掉再试
-# DOMAIN,gateway.icloud.com
+# ── ChatGPT 扩展:写作工具的「撰写 / Compose」必需 ──
+# 你的 ai.list 里 openai / chatgpt 相关行全部是 # 注释状态,并未生效
+# 如果 ACL4SSR 的 OpenAi.list 没覆盖 chatgpt.com,这里补上
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+
+# ── 兜底:Apple 新出现的 AI 端点 ─────────────
+DOMAIN-KEYWORD,apple-intelligence
