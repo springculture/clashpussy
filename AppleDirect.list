@@ -1,0 +1,36 @@
+# Apple 大流量服务直连白名单
+# 目的:App Store 下载更新、Apple Music、iCloud 照片、系统更新不走代理
+# 引用:ruleset=🎯 全球直连,https://raw.githubusercontent.com/springculture/clashpussy/main/AppleDirect.list
+# 顺序:必须排在 AppleIntelligence.list 之后(Clash 自上而下首次命中)
+
+# ── App Store 下载与应用更新 ──────────────────
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN,appsto.re
+
+# ── Apple Music ───────────────────────────────
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
+
+# ── iCloud 照片 / iCloud 云盘 上传下载 ─────────
+# 含 pXX-content.icloud.com、cvws.icloud-content.com、
+# p150-acsegateway.icloud.com、setup.icloud.com 等全部子域
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,apzones.com
+
+# ── 系统更新与设备内容 ────────────────────────
+DOMAIN,mesu.apple.com
+DOMAIN,xp.apple.com
+DOMAIN-SUFFIX,smp-device-content.apple.com
+DOMAIN-SUFFIX,updates.cdn-apple.com
+DOMAIN-SUFFIX,updates-http.cdn-apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,appldnld.apple.com
+
+# ── 定位服务(国内)───────────────────────────
+DOMAIN,gs-loc-cn.apple.com
